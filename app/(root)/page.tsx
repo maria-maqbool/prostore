@@ -3,7 +3,6 @@ import { getLatestProducts } from "@/lib/actions/product.actions";
 
 const Homepage = async () => {
   const latestProducts = await getLatestProducts();
-  console.log("sampleData: ", latestProducts);
   
   return ( 
     <>
